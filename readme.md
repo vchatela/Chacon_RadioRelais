@@ -1,4 +1,4 @@
-﻿#Chacon Radio Relay
+#Chacon Radio Relay
 This project aims to assist developers who need to control their Chacon sockets.
 
 
@@ -6,7 +6,7 @@ This project aims to assist developers who need to control their Chacon sockets.
 **NB : ** do not forget to do `chmod +x ./radioEmission` if you have an executing issue.
 
 ###radioEmission
-*It allow to send **on** or **off** state by the transmitter*
+*It allow to send * **on** *or* **off** *state by the transmitter*
 
 **Compile** with `g++ radioEmission.cpp -o radioEmission -lwiringPi`
 **Exec** with ```./radioEmission 0 12325261 1 on```
